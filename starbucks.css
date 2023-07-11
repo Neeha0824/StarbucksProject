@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+section{
+    position: absolute;
+    width:100%;
+    min-height:100vh ;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .logo{
+    position: relative;
+    max-width: 80px;
+
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 600;
+    margin-left: 40px;
+    text-decoration: none;
+}
+ .content{
+    position: relative;
+    height: 100%;
+    float:left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 100px;
+
+} 
+
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+    margin-top: 150px;
+    
+
+}
+.content .textbox h2{
+    color: #333;
+    font-size: 4em;
+   line-height: 1.3em; 
+   font-weight: 540;
+   
+}
+.content .textbox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.content .textbox a{
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 23px;
+    background-color: #017143;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-weight: 780;
+
+}
+.why{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.starbucks{
+    height: 530px;
+    margin-left: 180px;
+    float: right;
+    margin-top: 90px;
+}
+.content .imagbox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    margin-top: 50px;
+
+}
+.content .imagbox img{
+    max-width: 340px;
+}
+.thumb{
+    position: absolute;
+    margin-top:50ch;
+    left: 50%;
+    margin-bottom: 1%;
+    transform: translateX(-50%);
+    display: flex;
+    
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin:0 10px;
+    margin-top: 80%;
+    cursor: pointer;
+   
+}
+.thumb :hover{
+    transform: translatey(-5.15px);
+}
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+
